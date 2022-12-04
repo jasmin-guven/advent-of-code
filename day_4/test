@@ -1,0 +1,7 @@
+split_lines = []
+for line in lines:
+    for val in line:
+        new_line = val.split("-")
+        split_lines.append(new_line)
+# sections = [[section.split("-")] for line in lines for section in line]
+print(split_lines)
